@@ -1,0 +1,41 @@
+product_id,product_name,category,unit_cost,unit_price,primary_supplier_id,made_in_house,avg_weekly_demand_reference
+P001,AUTO-Bar-1,Automotive Parts,2344.8,3877.42,S011,True,25
+P002,AUTO-Old-2,Automotive Parts,1414.53,2375.32,S011,False,12
+P003,CHEM-Finally-3,Chemicals,2197.1,3120.49,S002,True,39
+P004,HARD-Themselves-4,Hardware,1880.18,2820.09,S012,False,18
+P005,PACK-Production-5,Packaging,1587.24,2784.74,S004,False,109
+P006,ELEC-Present-6,Electronics,1716.69,2197.68,S010,True,31
+P007,AUTO-Value-7,Automotive Parts,2195.84,3039.86,S011,False,16
+P008,PACK-Training-8,Packaging,424.46,735.91,S001,True,48
+P009,HARD-High-9,Hardware,636.66,871.34,S012,False,41
+P010,CHEM-Participant-10,Chemicals,454.56,713.37,S003,False,22
+P011,TEXT-Dark-11,Textiles,2254.05,3417.23,S004,False,103
+P012,AUTO-Sea-12,Automotive Parts,1596.2,2171.25,S011,True,42
+P013,CHEM-Available-13,Chemicals,1461.72,2002.7,S003,True,84
+P014,AUTO-Answer-14,Automotive Parts,182.72,302.84,S005,False,31
+P015,TEXT-Recently-15,Textiles,393.45,522.68,S011,True,116
+P016,ELEC-Drive-16,Electronics,2319.6,4161.56,S006,False,304
+P017,TEXT-Spring-17,Textiles,699.75,1223.76,S008,False,149
+P018,ELEC-Figure-18,Electronics,1468.99,2320.32,S007,False,47
+P019,PACK-Base-19,Packaging,217.88,271.82,S001,True,46
+P020,CHEM-Top-20,Chemicals,1434.81,2039.52,S009,True,90
+P021,ELEC-Early-21,Electronics,72.82,119.05,S008,True,44
+P022,ELEC-Trial-22,Electronics,2204.21,3215.21,S006,False,319
+P023,AUTO-Blood-23,Automotive Parts,303.79,551.28,S005,True,130
+P024,AUTO-Husband-24,Automotive Parts,2139.64,3324.54,S011,False,71
+P025,PACK-Fall-25,Packaging,1610.93,2228.51,S001,True,10
+P026,CHEM-Long-26,Chemicals,1403.69,2106.73,S002,True,273
+P027,CHEM-Prove-27,Chemicals,2216.13,3289.77,S002,False,20
+P028,AUTO-They-28,Automotive Parts,2314.99,4045.84,S005,False,94
+P029,TEXT-His-29,Textiles,594.96,1054.04,S004,True,89
+P030,ELEC-Commercial-30,Electronics,2418.88,3375.27,S006,True,44
+P031,PACK-Hospital-31,Packaging,1472.44,2780.68,S001,False,291
+P032,HARD-Hear-32,Hardware,158.75,238.96,S012,True,22
+P033,CHEM-Determine-33,Chemicals,819.09,1469.13,S003,False,29
+P034,PACK-Religious-34,Packaging,520.01,866.05,S001,True,138
+P035,CHEM-Example-35,Chemicals,1536.32,2190.14,S009,False,125
+P036,CHEM-Science-36,Chemicals,1676.44,2738.44,S002,True,240
+P037,TEXT-Write-37,Textiles,1547.62,2689.67,S004,False,149
+P038,ELEC-Result-38,Electronics,1957.13,2648.37,S006,False,13
+P039,AUTO-Raise-39,Automotive Parts,1351.27,2150.21,S011,False,138
+P040,TEXT-Away-40,Textiles,1152.67,1989.79,S005,False,41
