@@ -39,17 +39,206 @@ The main questions explored in the project were:
 
 ## Project Workflow
 
-```text
 ERP-style Data
-     ↓
+↓
 SQL Analysis
-     ↓
+↓
 Demand Forecasting
-     ↓
+↓
 Forecast Accuracy
-     ↓
+↓
 Inventory Optimization
-     ↓
+↓
 Power BI Dashboard
-     ↓
+↓
 Business Insights
+
+## 1. SQL Analysis
+
+SQL was used to analyze the sales, inventory, purchase order and supplier data.
+
+The analysis includes:
+
+- Inventory turnover
+- Days of inventory
+- Stockout frequency
+- ABC classification
+- Fast and slow-moving products
+- Supplier on-time delivery
+- Supplier lead time
+- Supplier defect rate
+- Purchase price variance
+- Monthly demand trends
+- Supplier scorecard
+
+SQL file:
+
+`queries.sql`
+
+## 2. Demand Forecasting
+
+Weekly product demand was calculated from historical sales data.
+
+Two forecasting methods were used:
+
+- 4-week Moving Average
+- Simple Exponential Smoothing
+
+A 12-week rolling backtest was used to evaluate the forecasts.
+
+The following metrics were calculated:
+
+- MAE
+- RMSE
+- MAPE
+- Forecast Bias
+
+Files:
+
+- `forecast.py`
+- `forecast_accuracy.csv`
+
+## 3. Inventory Optimization
+
+The inventory optimization model calculates inventory policies using demand and supplier lead-time variability.
+
+The model calculates:
+
+- Safety Stock
+- Reorder Point (ROP)
+- Economic Order Quantity (EOQ)
+
+The optimized policy was compared with a basic baseline policy.
+
+Files:
+
+- `optimize_inventory.py`
+- `inventory_policy.csv`
+- `policy_comparison.csv`
+
+## 4. Power BI Dashboard
+
+The Power BI dashboard has three pages:
+
+### Executive Overview
+
+The overview page contains:
+
+- Total Revenue
+- Inventory Value
+- Stockout Rate
+- Service Level
+- Inventory Turnover
+- Supplier OTD
+- Monthly Revenue Trend
+- Top 5 Products by Revenue
+- Bottom 5 Products by Revenue
+
+### Inventory
+
+The inventory page contains:
+
+- Average Closing Stock
+- Days of Inventory
+- Total Stockout Units
+- Stockout Units by Product
+- Warehouse and Category Inventory View
+
+### Supplier
+
+The supplier page contains:
+
+- Supplier OTD
+- Average Supplier Lead Time
+- Supplier Defect Rate
+- Supplier Performance Scorecard
+- Lead Time vs OTD
+- Defect Rate by Supplier
+
+## Key Findings
+
+- Total revenue across the dataset was approximately ₹463.03M.
+- Inventory value at the latest week was approximately ₹62.96M.
+- The overall stockout rate was 10.14%, corresponding to an 89.86% service level.
+- Inventory turnover was 6.04, with approximately 60.24 days of inventory.
+- Supplier on-time delivery performance was 91.05% overall.
+- Supplier performance varied across delivery time and defect rate, highlighting differences in supplier reliability.
+- The inventory optimization model compares a basic baseline policy with a policy based on demand and supplier lead-time variability.
+
+## Dashboard Screenshots
+
+### Executive Overview
+
+![Executive Overview](Executive%20Overview.png)
+
+### Inventory
+
+![Inventory](Inventory.png)
+
+### Supplier
+
+![Supplier](Supplier.png)
+
+## Key Dashboard Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Revenue | 463.03M |
+| Inventory Value | 62.96M |
+| Stockout Rate | 10.14% |
+| Service Level | 89.86% |
+| Inventory Turnover | 6.04 |
+| Supplier OTD | 91.05% |
+| Days of Inventory | 60.24 |
+
+These figures are from the synthetic dataset used for the project.
+
+## Dataset
+
+The project uses synthetic ERP-style data for:
+
+- Products
+- Suppliers
+- Customers
+- Sales
+- Purchase Orders
+- Production
+- Inventory
+
+The data is intended for learning and portfolio demonstration.
+
+## Repository Files
+
+- README.md
+- queries.sql
+- forecast.py
+- forecast_accuracy.csv
+- optimize_inventory.py
+- inventory_policy.csv
+- policy_comparison.csv
+- products.csv
+- suppliers.csv
+- customers.csv
+- sales.csv
+- purchase_orders.csv
+- production.csv
+- inventory.csv
+- Supply Chain Project.pbix
+- Executive Overview.png
+- Inventory.png
+- Supplier.png
+
+## How to Use
+
+1. Review the CSV datasets.
+2. Run `queries.sql` using a compatible SQL environment.
+3. Run `forecast.py` for demand forecasting and forecast accuracy.
+4. Run `optimize_inventory.py` for inventory policy calculations.
+5. Open `Supply Chain Project.pbix` to explore the Power BI dashboard.
+
+## Author
+
+Parth Mittal
+
+B.Tech Mechanical Engineering  
+Vellore Institute of Technology (VIT), Vellore
