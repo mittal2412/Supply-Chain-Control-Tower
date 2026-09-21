@@ -162,7 +162,7 @@ The supplier page contains:
 - The overall stockout rate was 10.14%, corresponding to an 89.86% service level.
 - Inventory turnover was 6.04, with approximately 60.24 days of inventory.
 - Supplier on-time delivery performance was 91.05% overall.
-- P015 and P039 recorded the highest stockout volumes among products supplied by S011, with 160 and 136 stockout units respectively. Both products had average supplier lead times above 11 days, while S011 had a lower baseline OTD of 80.6% and a 4.14% baseline defect rate, indicating supplier lead-time variability as a potential contributor to stockout risk.
+- P015 and P039 recorded the highest stockout volumes among products supplied by S011, with 160 and 136 stockout units respectively. Both products had average supplier lead times above 11 days, while S011's measured on-time delivery was 92.1% and its measured defect rate was 4.28%, indicating that lead-time variability and supplier quality are relevant factors to investigate when addressing stockout risk.
 - The inventory optimization simulation improved service level from approximately 99.82% to 99.93% while reducing total simulated inventory cost from approximately ₹55.83 lakh to ₹44.01 lakh.
 
 ## Dashboard Screenshots
